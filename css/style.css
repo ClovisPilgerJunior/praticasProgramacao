@@ -1,0 +1,54 @@
+body{
+    background-color: #2b0202;
+    color: white;
+    margin: 0;
+}
+
+header{
+    background-color: azure;
+    color: black;
+}
+
+main{
+    margin: auto 20%;
+}
+
+footer{
+    background-color: azure;
+    color: black;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+h1, h2{
+    color: #f00;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+.destaque {
+    background-color: brown;
+    color: azure;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#img-logo{
+    width: 50px;
+}
+
+nav li{
+    display: inline;
+    margin-left: 20px;
+    color: #b61a1a;
+    font-weight: bold;
+    border: 2px solid #b61a1a;
+    padding: 5px;
+}
+nav{
+    float: right;
+}
