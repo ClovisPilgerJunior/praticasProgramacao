@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Estrutura de Repetição</title>
+</head>
+<body>
+
+<script>
+
+    let contador = 1
+    const qtd = prompt('digita a quantidade de repetições')
+    let soma = 0
+    let nota = 0
+
+    while(contador <= qtd) {
+
+        do{
+        nota = Number(prompt("Digite a nota: " + contador))
+        } while ((nota > 10 || nota < 1))
+        soma = soma + nota
+        contador++
+
+    }
+
+    const media = soma / qtd
+
+    let resultado = media >= 7 ? 'Aprovado' : media < 5 ? 'Reprovado' : 'Recuperação'
+    console.log("Sua media foi: " + media)
+    console.log("Resultado: " + resultado)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
