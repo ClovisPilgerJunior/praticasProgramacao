@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Estruturas de condição</title>
+</head>
+<body>
+<script>
+
+         // calculo da média
+       const n1 = Number(prompt('Digite a nota 1'))
+       const n2 = Number(prompt('Digite a nota 2'))
+       const n3 = Number(prompt('Digite a nota 3'))
+       const n4 = Number(prompt('Digite a nota 4'))
+
+       const media = (n1 + n2 + n3 + n4) / 4
+
+       console.log("Sua media foi: " + media)
+
+       let mensagem = media >= 7 ? 'Aprovado' : media < 5 ? 'Reprovado' : 'Recuperação'
+       console.log(mensagem)
+
+
+</script>
+</body>
+</html>
