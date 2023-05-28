@@ -7,26 +7,31 @@
 <body>
 <script>
 
-       // calculo da média
-       const n1 = Number(prompt('Digite a nota 1'))
-       const n2 = Number(prompt('Digite a nota 2'))
-       const n3 = Number(prompt('Digite a nota 3'))
-       const n4 = Number(prompt('Digite a nota 4'))
+        /*
+        Verificar o aumento de salario de acordo com os seguinte cargos:
+        Estagiário: 100%
+        Analista: 50%
+        Gerente: 30%
+        Presidente: 10%
+        */
 
-       const media = (n1 + n2 + n3 + n4) / 4
+        const salario = prompt('Digite um cargo')
+        const cargo = prompt('Digite um cargo')
+        let aumento = 0
 
-       console.log("Sua media foi: " + media)
+        switch(cargo) {
+            case 'Estagiário':   aumento = 2; break;
+            case 'Analista':     aumento = 1.5; break;
+            case 'Gerente':      aumento = 1.3; break;
+            case 'Presidente':   aumento = 1.1;  break;
+            default: alert("Favor escolher um cargo válido")
+        }
 
-       if (media >= 7) {
-            console.log("Aprovado")
-       } else if (media < 5 ) {
-            console.log("Reprovado")
-       } else {
-            console.log("Recuperação. Estude mais para passar")
-       }
+        // const novoSalario = salario + (salario * aumento)
+        // const novoSalario = salario * (1 + aumento)
+        const novoSalario = salario * aumento
 
-
-
+        console.log("O novo salario é: R$" + novoSalario)
 
 
 </script>
