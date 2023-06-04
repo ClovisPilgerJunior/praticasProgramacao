@@ -4,52 +4,7 @@
     <meta charset="UTF-8">
     <title>JavaScrip</title>
 
-    <script>
-
-        function somar(){
-           const n1 = document.getElementById('n1').value
-           const n2 = document.getElementById('n2').value
-           const sum = Number(n1) + Number(n2)
-
-           const resultado = document.getElementById('resultado')
-           resultado.innerHTML = "Resultado  da soma é: " + sum
-        }
-        function subtrair(){
-           const n1 = document.getElementById('n1').value
-           const n2 = document.getElementById('n2').value
-           const sum = n1 - n2
-
-           const resultado = document.getElementById('resultado')
-           resultado.innerHTML = "Resultado  da soma é: " + sum
-        }
-        function multiplicar(){
-           const n1 = document.getElementById('n1').value
-           const n2 = document.getElementById('n2').value
-           const sum = n1 * n2
-
-           const resultado = document.getElementById('resultado')
-           resultado.innerHTML = "Resultado  da soma é: " + sum
-        }
-        function dividir(){
-           const n1 = document.getElementById('n1').value
-           const n2 = document.getElementById('n2').value
-           if (n2 == Number(0)) {
-            const resultado = document.getElementById('resultado')
-            resultado.innerHTML = "Não é possível dividir por Zero"
-           } else {
-
-             const sum = n1 / n2
-
-            const resultado = document.getElementById('resultado')
-           resultado.innerHTML = "Resultado  da soma é: " + sum
-
-           }
-        }
-
-
-    </script>
-
-
+    <script type="text/javascript" src="js/funcoes.js"></script>
 </head>
 <body>
 
@@ -57,10 +12,10 @@
     N1: <input type="text" id="n1"/><br>
     N2: <input type="text" id="n2"/><br>
 
-    <input type="button" value="Somar" onclick="somar()">
-    <input type="button" value="Subtrair" onclick="subtrair()">
-    <input type="button" value="Multiplicar" onclick="multiplicar()">
-    <input type="button" value="Dividir" onclick="dividir()">
+    <input type="button" value="Somar" onclick="calcular('+')">
+    <input type="button" value="Subtrair" onclick="calcular('-')">
+    <input type="button" value="Multiplicar" onclick="calcular('*')">
+    <input type="button" value="Dividir" onclick="calcular('/')">
 
     <h1 id="resultado">Resultado da soma é: </h1>
 
