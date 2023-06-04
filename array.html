@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+
+    <script>
+
+        const carros = ['Gol', 'Fusca', 'Virtus', 'Ka']
+        
+        carros.push('Fiesta')
+        carros.unshift('Palio')
+      
+        console.table(carros)
+
+        /* 
+        splice serve para:
+        Excluir itens a partir de uma poisição
+        ex: carros.splice(2, 3) -> excluir 3 itens a partir da posição 2
+        
+        inserir itens a partir de uma posição
+        ex: carros.splice(3, 0, 'Uno') -> adiciona o item 'Uno' na posição 3
+        
+        alterar itens a partir de uma posição
+        ex: carros.splice(1, 1, 'Uno') -> adiciona o item 'Uno' na posição 3 após apagar o item que lá estava
+       
+        */
+
+        carros.splice(1, 0, 'Uno')
+        console.table(carros)
+
+        carros.sort()
+        console.table(carros)
+
+
+
+
+        // const anos = [1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022]
+
+/*         for(let carro of carros){
+            console.log(carro)
+        }
+
+        for(let i = 0; i < carros.length; i++){
+            console.log(carros[i])
+        }
+ */
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
