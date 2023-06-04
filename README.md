@@ -23,9 +23,9 @@
 
 
 3. UA 3 - Coleções e Funções
-    - Aula 1 -
-    - Aula 2 -
-    - Aula 3 -
+    - Aula 1 - Arrays
+    - Aula 2 - Arrays Multidimensional
+    - Aula 3 - Funções
     - Aula 4 -
     - Aula 5 -
 
