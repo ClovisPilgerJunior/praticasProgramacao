@@ -26,12 +26,12 @@
     - Aula 1 - Arrays
     - Aula 2 - Arrays Multidimensional
     - Aula 3 - Funções
-    - Aula 4 -
-    - Aula 5 -
+    - Aula 4 - Recusividade
+    - Aula 5 - Imersão JavaScript - Coleções e Funções
 
 
 4. UA 4 - Programando Soluções com JavaScript, HTML e CSS
-    - Aula 1 -
+    - Aula 1 - 
     - Aula 2 -
     - Aula 3 -
     - Aula 4 -
